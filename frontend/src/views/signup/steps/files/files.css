@@ -1,0 +1,19 @@
+.FirstFile{
+    position: relative;
+    margin-top: 10px;
+    float: left;
+}
+.files{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 40%;
+}
+.h6class{
+    margin-right: 5px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.filess{
+    float: left;
+}

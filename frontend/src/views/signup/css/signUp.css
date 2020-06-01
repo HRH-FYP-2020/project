@@ -1,0 +1,21 @@
+
+.btnPrevious{
+  /* margin-left: 10px; */
+  width: 100px;
+  height: 30px;
+  border-radius:5px ;
+  background-color: #6F94D4;
+}
+.btnSubmit {
+  margin-top: 10%;
+margin-left: 90px;
+height: 30px;
+width: 100px;
+margin-top: 0px;
+border-radius:5px ;
+background-color: #6F94D4;
+
+}
+.text-center{
+  margin-top: 10%;
+}

@@ -1,0 +1,63 @@
+.createUser{
+
+    width: 98%;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #dddddd;
+    box-shadow: 0px 1px 1px 0px #888888;
+}
+.accountDetails{
+
+    width: 100%;
+    display: inline-block;
+    height: 100%;
+    background-color: white;
+    border: 2px solid green;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.EmailField{
+    width: 100%;
+    height: 35px;
+    color: black;
+    border: 2px solid #dddddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.EmailField:hover{
+    border-color: rgba(220,220,220, 0.8);
+    box-shadow: 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+.h3Heading{
+        color: black;
+        margin-bottom: 30px;
+        margin-left: 40%;
+}
+.nameHading{
+    margin-left: 50%;
+    margin-top: -30px;
+}
+.EmailDiv{
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+    padding-top:10px;
+    margin-bottom: 5px;
+}
+.submitBtnn{
+
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(78, 231, 78);
+    color:white;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,27 @@
+.Verification{
+    height: 100vh;
+    width: 100%;
+    background: none;
+    position: absolute;
+    margin-top: -125px;
+    text-align: center;
+    
+}
+.emailV{
+    width: 31%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 1.5%;
+    border-radius:5px ;
+}
+.verifyBtn{
+    background-color: #fb8c00;
+    margin-left:20px;
+    width: 12%;
+    height: 40px;
+    border-radius: 10px;
+}
+#bold{
+    text-decoration: underline;
+    color: orange;
+}

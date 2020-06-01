@@ -1,0 +1,82 @@
+.showMessage{
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-top: 50px;
+    padding-left: 40px;
+    box-shadow: 0px 1px 1px 0px #888888;
+    border: 1px solid #dddddd;
+
+}
+.showMessage p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 20px;
+    width:70%;
+}
+#message{
+    margin-left: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    table-layout:fixed; width:100%; word-break:break-all;
+}
+#button,#button2{
+    width:20%;
+    height: 30px;
+   
+    border-radius: 5px;
+    margin-left: 58%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#button2{
+    margin-left: 70%;
+}
+
+#button:hover,#button2:hover{
+    border: 0.5px solid green;
+    box-shadow: 1px 1px 5px green;
+}
+#message :hover{
+    box-shadow: 1px 1px 1px green;
+}
+.showMessage p:hover{
+    color: green;
+}
+.showMessage span{
+   
+    padding-left: 30px;
+    color: black;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.showMessage span:hover{
+color: green;
+}
+#comment{
+    background-color: ghostwhite;
+    /* border: 1px solid green ; */
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 10px;
+    /* border-color: green; */
+    /* margin-left: 10%; */
+    /* border: none; */
+    border-color: green;
+}
+
+#comment:focus{
+
+    box-shadow: 1px 2px 15px 1px green;
+}
+.label{
+    margin-left: 2%;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.label:hover{
+    color: green;
+}

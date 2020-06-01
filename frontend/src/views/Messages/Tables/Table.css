@@ -1,0 +1,59 @@
+.tableData{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 20px;
+    box-shadow: 0px 1px 1px 0px #888888;
+    border: 1px solid #dddddd;
+}
+
+.tabless{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: -5px;
+    border: 1px solid #dddddd;
+  }
+.tableHeader{
+    background-color: white;
+    color: black;
+    height: 10px;
+}
+
+  td, th{
+      width: auto;
+    border: none;
+    text-align: left;
+    padding: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #dddddd;
+  }
+  tr:nth-child(even) {
+    background-color:#eceff1;
+  }
+  tr:nth-child(odd) {
+    background-color: white;
+  }
+
+  tr:nth-child(even):hover   {
+    background-color: white;
+    
+  }
+  tr:nth-child(odd):hover {
+    background-color: #eceff1;
+  }
+  .app_id{
+      width: 100%;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid #dddddd 
+  }
+  .tdd{
+      /* background-color: black; */
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 70px;
+  }

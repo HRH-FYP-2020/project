@@ -1,0 +1,11 @@
+.Main{
+    background-color: white;
+
+    width: 98%;
+
+    border: 1px solid #dddddd;
+    box-shadow: 5px 5px 5px gray;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}

@@ -1,0 +1,52 @@
+.firstStepDiv{
+
+    background-color: floralwhite;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    display: inline-block;
+    height: 10%;
+    width: 90%;
+}
+
+.Type_of_MemberShip{
+
+    float: left;
+    margin-top: 40px;
+    width: 50%;
+    background-color: floralwhite;
+}
+.Application_Type{
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.date{
+    float: left;
+    margin-top: 40px;
+    background-color: floralwhite;
+    width: 50%;
+}
+.startDate{
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: 0.6px solid gray;
+}
+.warningP{
+    color: red;
+}
+.fa{        
+    width: 90%;
+    margin-left: 10px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 0 0 0;
+}
+.h6SignUp{
+    color: black;
+    float: left;
+}

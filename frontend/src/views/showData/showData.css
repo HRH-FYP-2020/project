@@ -1,0 +1,52 @@
+.data{
+    width: 2%;
+}
+.showDataTable{
+    background-color: white;
+    border: 1px solid floralwhite;
+    box-shadow: 1px 15px 15px gray;
+    border-radius: 5px; 
+    overflow: hidden;
+    padding-right: 20px;
+}
+tr{
+    width: 20%;
+}
+.tableData{
+    padding-right: 3.5%;
+    padding-left: 40px;
+}
+.acceptBtn{
+    display: inline-block;
+    margin-top: 4%;
+    /* align-self: center; */
+    margin-left: 40%;
+    background-color: green;
+    width: 5%;
+    /* border-radius: ; */
+}
+.Primary{
+    height: 40px;
+    display: inline-block;
+    margin-top: -4%;
+    margin-bottom: 2%;
+    margin-left: 70%;
+    width: 15%;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 15px 15px gray;
+}
+i{
+    float: left;
+    margin-left: 40px;
+    background-color: floralwhite ;
+    width: 15%;
+    height: 45px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 15px 15px gray;
+}
