@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="star">#FFD81B1B</color>
+
+    <color name="member_form_text">#C0AC65</color>
+    <color name="profile_background">#0C1124</color>
+    <color name="member_button">#A3996E</color>
+
+    <color name="employee_text">#3BDF9D</color>
+
+    <color name="em">#17EDE3</color>
+
+
+    <color name="color_testing">#2e7d32</color>
+</resources>

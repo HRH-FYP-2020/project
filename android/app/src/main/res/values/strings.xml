@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">PROJECT</string>
+    <string name="navigation_drawer_open">Open navigation Drawer</string>
+    <string name="navigation_drawer_close">Close navigation Drawer</string>
+
+    <string name="visafrom">
+        VISA FROM PAKISTAN
+    </string>
+
+    <string name="visato">
+        VISA TO PAKISTAN
+    </string>
+
+    <string name="star">
+        <![CDATA[<b><font color=#FF0000>*</font></b>]]>
+    </string>
+
+    <string name="visa_recommendation">
+        Chamber of Commerce issues visa recommendation letters to its active members
+        only for business visits that intend to go abroad for business purpose
+        or want to invite some person from foreign country for business purpose.
+        These letters are issued for departure and arrival.
+    </string>
+
+    <string name="signUp">
+       Don\'t have an account? <b><u>Sign Up Here</u></b>
+    </string>
+
+    <string name="req_submitted">
+        Your Request has been Submitted.
+    </string>
+
+    <string name="doc_uploaded">
+        <b>-UPLOADED-</b>
+    </string>
+
+    <string name="qrDone">
+        <b>-DONE-</b>
+    </string>
+
+    <string-array name="app_type">
+        <item>Normal</item>
+        <item>Urgent</item>
+    </string-array>
+
+    <string-array name="member_class">
+        <item>Corporate Member</item>
+        <item>Associate Member</item>
+    </string-array>
+
+    <string-array name="membership_type">
+        <item>Proprietorship</item>
+        <item>Partnership</item>
+        <item>AOP</item>
+        <item>Ltd./Pvt. Ltd Co.</item>
+        <item>Multinational Co.</item>
+        <item>Manufacturing Concern.</item>
+    </string-array>
+
+    <string-array name="main_line_of_business">
+        <item>Manufacturer</item>
+        <item>Technology</item>
+        <item>Processor</item>
+        <item>Importer</item>
+        <item>Exporter</item>
+        <item>Trader</item>
+        <item>Services</item>
+        <item>Any Other</item>
+    </string-array>
+
+    <string-array name="item">
+        <item>Luggage</item>
+        <item>Garments</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>USA</item>
+        <item>India</item>
+        <item>Afghanistan</item>
+        <item>Iran</item>
+        <item>Saudi Arabia</item>
+        <item>Qatar</item>
+        <item>UK</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>Portugal</item>
+    </string-array>
+
+    <string-array name="member_status">
+        <item>New Member</item>
+        <item>Old Member</item>
+    </string-array>
+
+    <string-array name="bank_name">
+        <item>HBL</item>
+        <item>ABL</item>
+        <item>Faysal Bank</item>
+        <item>Islamic Bank</item>
+        <item>EasyPaisa Bank</item>
+    </string-array>
+
+    <string-array name="qrCheck">
+        <item>Line By Line</item>
+        <item>JSON</item>
+    </string-array>
+</resources>

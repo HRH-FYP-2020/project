@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4_box"
+    tools:context=".settingsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="163dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:fontFamily="@font/georgia_bold"
+        android:text="SETTINGS"
+        android:textAlignment="center"
+        android:textColor="@color/member_form_text"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/georgia"
+        android:paddingLeft="5dp"
+        android:text="Enter Old Password:"
+        android:textAllCaps="true"
+        android:textColor="@color/member_form_text"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/oldpassword"
+        app:layout_constraintEnd_toEndOf="@+id/oldpassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/oldpassword"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <EditText
+        android:id="@+id/renewpassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/textview_details"
+        android:fontFamily="@font/georgia"
+        android:hint="Re-Enter New Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/member_form_text"
+        android:textColorHint="@color/member_form_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/georgia"
+        android:paddingLeft="5dp"
+        android:text="Re-Enter New Password:"
+        android:textAllCaps="true"
+        android:textColor="@color/member_form_text"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/renewpassword"
+        app:layout_constraintEnd_toEndOf="@+id/renewpassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/renewpassword"
+        app:layout_constraintTop_toBottomOf="@+id/newpassowrd"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <EditText
+        android:id="@+id/oldpassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/textview_details"
+        android:fontFamily="@font/georgia"
+        android:hint="Enter Old Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/member_form_text"
+        android:textColorHint="@color/member_form_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/georgia"
+        android:paddingLeft="5dp"
+        android:text="Enter New Password:"
+        android:textAllCaps="true"
+        android:textColor="@color/member_form_text"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/newpassowrd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/newpassowrd"
+        app:layout_constraintTop_toBottomOf="@+id/oldpassword"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <EditText
+        android:id="@+id/newpassowrd"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/textview_details"
+        android:fontFamily="@font/georgia"
+        android:hint="Enter Old Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/member_form_text"
+        android:textColorHint="@color/member_form_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/member_form_text"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:background="@drawable/button_square"
+        android:fontFamily="@font/georgia_bold"
+        android:onClick="done"
+        android:text="SUBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_visaFrom"
+            android:icon="@drawable/ic_flightto"
+            android:title="Visa (From Pak)" />
+
+        <item
+            android:id="@+id/nav_visaTo"
+            android:icon="@drawable/ic_flightfrom"
+            android:title="Visa (To Pak)" />
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </menu>
+
+        </item>
+
+        <item android:title="Extra">
+            <menu>
+                <item
+                    android:id="@+id/aboutProject"
+                    android:icon="@drawable/ic_application"
+                    android:title="About Project" />
+                <item
+                    android:id="@+id/aboutUs"
+                    android:icon="@drawable/ic_application"
+                    android:title="About US" />
+            </menu>
+        </item>
+    </group>
+</menu>

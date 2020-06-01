@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/em_background1"
+    tools:context=".EmSignIn">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="288dp"
+        android:layout_height="59dp"
+        android:background="@drawable/embutton_background"
+        android:fontFamily="@font/georgia_bold"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:onClick="emSignIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/georgia_bold"
+        android:text="EMAIL"
+        android:textColor="@color/em"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/EmEmail"
+        app:layout_constraintStart_toStartOf="@+id/EmEmail"
+        app:layout_constraintTop_toBottomOf="@+id/EmEmail" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/georgia_bold"
+        android:text="PASSWORD"
+        android:textColor="@color/em"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/EmPassword"
+        app:layout_constraintStart_toStartOf="@+id/EmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/EmPassword" />
+
+    <EditText
+        android:id="@+id/EmPassword"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:background="@drawable/emtextview_details"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:text="football"
+        android:fontFamily="@font/georgia"
+        android:textColor="@color/em"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <EditText
+        android:id="@+id/EmEmail"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
+        android:background="@drawable/emtextview_details"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:fontFamily="@font/georgia"
+        android:text="Name"
+        android:textColor="@color/em"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <ImageView
+        android:id="@+id/imgvw"
+        android:layout_width="409dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/emlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

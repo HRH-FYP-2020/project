@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4_box">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="406dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="@font/georgia_bold"
+        android:paddingTop="10dp"
+        android:text="EVENT REQUEST FORM"
+        android:textAlignment="center"
+        android:textColor="#C0AC65"
+        android:textSize="18dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:text="Events Detail Form"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Name:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Name"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Description:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Here"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Starting Date:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/date_startbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="BusinessDate"
+                android:text="Select Date" />
+
+            <EditText
+                android:id="@+id/eventStart_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:editable="false"
+                android:fontFamily="@font/georgia"
+                android:hint="Date Appears Here"
+                android:textAlignment="center"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Closing Date:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/date_endbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="BusinessDate"
+                android:text="Select Date" />
+
+            <EditText
+                android:id="@+id/eventEnd_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:editable="false"
+                android:fontFamily="@font/georgia"
+                android:hint="Date Appears Here"
+                android:textAlignment="center"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Venue:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/event_venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Here"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Category:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/event_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Event Poster: (IF Any)"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/poster_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:text="CHOOSE FILE" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="20dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <Button
+                android:id="@+id/event_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_square"
+                android:fontFamily="@font/georgia_bold"
+                android:text="SUBMIT" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

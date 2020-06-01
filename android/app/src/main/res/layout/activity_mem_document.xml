@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4_box"
+    tools:context=".mem_documentActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="101dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="113dp"
+        android:fontFamily="@font/georgia_bold"
+        android:text="Documents FORM"
+        android:textAlignment="center"
+        android:textColor="@color/member_form_text"
+        android:textSize="20dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/georgia_bold"
+                android:text="Required documents:"
+                android:textAllCaps="true"
+                android:textColor="@color/member_form_text"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="CNIC:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_cnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="1"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="National Tax Number:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_ntn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="2"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Latest Income Tax Return:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_taxReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="3"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Sales Tax Registration:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_salesTax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="4"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Latest Sales Tax Return:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_salesTaxReturn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="5"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Photograph:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="6"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Building Allotment Letter/Office:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_officeSpace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="7"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Original Bank Certificate:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_bankCertificate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="8"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="9dp"
+                android:text="Signature:"
+                android:textColor="@color/member_form_text"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/doc_sign"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="Upload"
+                android:tag="9"
+                android:text="Choose File"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_square"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="submit"
+                android:text="SUBMIT" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

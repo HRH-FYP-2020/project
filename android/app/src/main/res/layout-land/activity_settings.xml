@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2_box_land"
+    tools:context=".settingsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="409dp"
+        android:layout_height="102dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="409dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/georgia_bold"
+        android:text="SETTINGS"
+        android:textAlignment="center"
+        android:textColor="@color/member_form_text"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/georgia"
+                android:paddingLeft="5dp"
+                android:text="Enter Old Password:"
+                android:textAllCaps="true"
+                android:textColor="@color/member_form_text"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000000"></LinearLayout>
+
+            <EditText
+                android:id="@+id/oldpassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_details"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Old Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textColor="@color/member_form_text"
+                android:textColorHint="@color/member_form_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/georgia"
+                android:paddingLeft="5dp"
+                android:text="Enter New Password:"
+                android:textAllCaps="true"
+                android:textColor="@color/member_form_text"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000000"></LinearLayout>
+
+            <EditText
+                android:id="@+id/newpassowrd"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_details"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Old Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textColor="@color/member_form_text"
+                android:textColorHint="@color/member_form_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/georgia"
+                android:paddingLeft="5dp"
+                android:text="Re-Enter New Password:"
+                android:textAllCaps="true"
+                android:textColor="@color/member_form_text"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000000"></LinearLayout>
+
+            <EditText
+                android:id="@+id/renewpassword"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_details"
+                android:fontFamily="@font/georgia"
+                android:hint="Re-Enter New Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp"
+                android:textColor="@color/member_form_text"
+                android:textColorHint="@color/member_form_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#000000"></LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/scrollView"
+                android:background="@drawable/button_square"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="done"
+                android:text="SUBMIT"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="5dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
+

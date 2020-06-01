@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2_box"
+    tools:context=".signUpActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/qrcodeScanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_square"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="QRcodeScanner"
+                android:text="Scan Data" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:text="Membership application details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Application ID:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/app_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:editable="false"
+                android:fontFamily="@font/georgia"
+                android:hint="Application ID"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Type of Application:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/app_Type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Membership Status Details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Previous Membership ID:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/pre_mem_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Mem ID"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Type of Membership:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/mem_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Class of Membership:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/mem_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Membership Status:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/mem_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Business Details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Business Name:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/business_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Your Business Name"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Business Address:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/business_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Your Business Address"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Representative Name:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/representative_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Your Representative Name"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Designation:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/Designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Your Designation"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Name of Partners (Use , to separate names):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/partners_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Partners' Names"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Name Of Bank:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/bank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Business Establishment Date:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/date_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="BusinessDate"
+                android:text="Select Date" />
+
+            <EditText
+                android:id="@+id/BE_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:editable="false"
+                android:fontFamily="@font/georgia"
+                android:hint="Date Appears Here"
+                android:textAlignment="center"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="NTN Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/ntn_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="NTN No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Main Line of Business:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/main_business"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Telephone Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/telephone_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Telephone No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Telephone Number (2):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/telephone_No2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Telephone No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="GST Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/gst_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Applicable GST No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Business of Interest:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/business_interest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="personal details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="CNIC:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/cnic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="00000-00000000-0"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Passport Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/passport_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="AA0000000"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Date of Birth:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/dob_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFA3996E"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="BirthDate"
+                android:text="Select Date" />
+
+            <EditText
+                android:id="@+id/dob_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:editable="false"
+                android:fontFamily="@font/georgia"
+                android:hint="Date Appears Here"
+                android:textAlignment="center"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Mobile Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/mobile_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Mobile No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Mobile Number (2):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/mobile_No2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Mobile No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Email:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Email ID"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Email (2):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/Email2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Email ID"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Tel (Home):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/tel_Home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Telephone No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Fax Number:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/fax_No"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Fax No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="UAN:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/uan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter UAN No."
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="URL:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter URL"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="import/export details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Item of Export:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/item_export"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Countries of Export:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/country_export"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Item of Import:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/item_import"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Countries of Import:"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/country_import"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#C0AC65" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Verification details"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#C0AC65"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#C0AC65"></LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Membership Email (1):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/mem_email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Member's Email ID"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/georgia_bold"
+                android:padding="2dp"
+                android:text="Membership Email (2):"
+                android:textColor="#C0AC65"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/mem_email2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/member_form_text"
+                android:fontFamily="@font/georgia"
+                android:hint="Enter Member's Email ID"
+                android:textColor="#C0AC65"
+                android:textColorHint="#C0AC65" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_square"
+                android:fontFamily="@font/georgia_bold"
+                android:onClick="signUpForm"
+                android:text="SUBMIT" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="406dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="@font/georgia_bold"
+        android:paddingTop="10dp"
+        android:text="MEMBERSHIP APPLICATION FORM:"
+        android:textAlignment="center"
+        android:textColor="#C0AC65"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
