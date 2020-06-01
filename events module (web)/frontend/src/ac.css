@@ -1,0 +1,176 @@
+.pic{
+    background-attachment: scroll;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-image: url("./ac.png");
+    margin-top: -12%;
+    height: 100vh;
+    }
+
+.reg{
+    background-color: palegoldenrod;
+   
+}
+.eg{
+    background-color: burlywood;
+}
+.qw{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 10em;
+    margin-right: 20px;
+}
+.cl{
+    margin-left: 1em;
+    
+}
+.cm{
+    padding-left: 100px;
+}
+.nm{
+    margin-left: 5em;
+}
+.cr{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.ck{
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.sl{
+    width: 8rem;
+    height: 10rem;
+    margin-left: -15rem;
+
+}
+.xx{
+    margin-left: 5rem;
+    height: 780px;
+    width: 450px;
+}
+.sb{
+    width: 8rem;
+    height: 10rem;
+    margin-left: -15rem;
+    margin-top: 1.5rem;
+}
+.pp{
+    margin-top: .5em;
+}
+.ci{
+  margin-left:1em ;
+  margin-top: 1em;
+  color: #00acee;
+}
+.ii{
+    margin-top: 1em;
+    color:#00acee;
+}
+.tt{
+    margin-top: 1.5em;
+}
+.hd{
+    font: outline bold;
+    font-size: 5ex;
+}
+.hs{
+    /* margin-top: -10%; */
+    color: gray;
+    margin-left: 3rem;
+    margin-right: 0rem;
+    
+}
+.az{
+    background-image: url("./ac.png");
+    margin-top: -12%;
+    height: 100vh;
+    /* overflow: hidden; */
+    /* background-color:rebeccapurple; */
+    background-size: cover ;
+    background-attachment: scroll;
+}
+
+.as{
+    margin-left: 3rem;
+    color: blue;
+    font-size: 3rem;
+   
+}
+.re{
+    margin-top: -10rem;
+    margin-right: 0px;
+}
+.io{
+    margin-left: 3rem;
+    color: rgba(29, 5, 165, 0.842);
+  margin-bottom: 1rem;
+}
+.cd{
+   background-color: rgba(2, 96, 236, 0.979);
+   height: 25rem;
+}
+.op{
+    height: 300px;
+    width: 400px;
+}
+.po{
+    height: 300px;
+    width: 400px;
+}
+.xz{
+    height: 300px;
+    width: 350px;
+}
+.lm{
+    height: 100px;
+    width: 100px;
+    color: blue;
+}
+.rz{
+    width: 25em;
+    margin-left: 500px;
+    margin-bottom: 100px;
+
+}
+.ll{
+    margin-bottom: 100px;
+    
+}
+.jj{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lk{
+   background-color: floralwhite;
+}
+.nm{
+    margin-left: 3rem;
+}
+.ro{
+    margin-top: 5rem;
+}
+.te{
+    text-align: left;
+    margin-top: 10 px;
+    margin-left: 3rem;
+}
+.tl{
+    text-align: center;
+    margin-top: 3px;
+}
+.pi{
+    text-align: left;
+    margin-top: 100px;
+    line-height: 2em;
+    font-weight: 600;
+}
+.hj{
+    text-align: left;
+    margin-top: 100px;
+    font-style: oblique;
+}
