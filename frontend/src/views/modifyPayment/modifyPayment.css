@@ -1,0 +1,70 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /* display: inline-block; */
+    width: 93%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 37px;
+    /* overflow-y: scroll; */
+    /* margin-right: 20px; */
+    /* border: 0.001cm solid black; */
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 5px gray; */
+    /* height: 200px; */
+
+  }
+  h3{
+      padding-left: 40%;
+      color: grey;
+  }
+  .formH{
+      margin-top: 5%;
+      margin-left: 115px;
+        width: 80%;
+        height:25%;
+        /* background-color: indigo; */
+        border: 2px solid green;
+        border-radius: 5px;
+  }
+  .listView{
+      height: 800px;
+  }
+  .firstdrop{
+      margin-left: 20px;
+      margin-top:30px
+
+  }
+  .dropDown{
+      /* display: inline-block; */
+      box-shadow: 10px 10px 5px gray;
+      width: 40%;
+      height: 40px;
+      border-radius: 5px;
+      margin-top: 20px;
+  }
+  option:nth-child(even) {
+    background-color: lightcyan;
+  }
+  .Number{
+      margin-top: 20px;
+      border-color: grey;
+      float: right;
+      width: 40%;
+      height: 40px;
+      border-radius: 5px;
+      margin-right: 20px;
+      box-shadow: 10px 10px 5px gray;
+  }
+  .Amoount{
+      margin-left: 60%;
+  }
+  .primery{
+      margin-top: 30px;
+      width: 30%;
+      height: 35px;
+      margin-left: 35%;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px whitesmoke;
+  }
+  

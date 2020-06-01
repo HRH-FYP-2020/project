@@ -1,0 +1,32 @@
+.sixthStep{
+    background-color: floralwhite;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    display: inline-block;
+    height: 5%;
+    width: 90%;
+    margin-top: 10px;
+}
+.h6heading{
+    float: left;
+    margin-left: 1.5%;
+    margin-top: 2%;
+    font-size: large;
+}
+p{
+    float: left;
+    margin-left: 1.5%;
+}
+.btnn{
+    float: left;
+    border: 2px solid ;
+    background-color: rgb(50,205,50);
+    color: white;
+    width: 25%;
+    height:35px;
+    border-radius: 5px;
+    margin-left: 1.5%;
+    
+  
+  }
+  

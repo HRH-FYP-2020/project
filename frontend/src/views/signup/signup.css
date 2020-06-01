@@ -1,0 +1,78 @@
+.input100{
+  margin-top: 50px;
+  width: 80%;
+  height: 40px;
+  border: 1px outset  #50404d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px gray;
+  background-color:white ;
+  color: honeydew;
+}
+
+.mainDiv{
+  background-color: whitesmoke;
+  background-size:cover;
+  /* height: 100vh; */
+  overflow: hidden;
+  text-align: center;
+  overflow: scroll;
+}
+
+.secondryDiv{
+  background-color:  floralwhite;
+  height: 500%;
+  overflow-y: scroll;
+  width: 90%;
+  margin-top: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  border: 1.5px solid gray;
+  /* box-shadow: 5px 40px 30px gray; */
+}
+.secondryDiv::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+
+.MemberShip_Aplication_Details{
+  background-color: floralwhite;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  display: inline-block;
+  height: 6%;
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+}
+.Type_of_MemberShip2{
+  margin-top: 50px;
+  width: 50%;
+  background-color: floralwhite;
+  margin-left: 25%;
+}
+.Application_Type2{
+  width: 98%;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.btn{
+  float: left;
+  border: 2px solid ;
+  background-color: rgb(50,205,50);
+  color: white;
+  width: 25%;
+  height: 1.2%;
+  border-radius: 5px;
+  margin-left: 5%;
+
+}
+.h6signUpHeading{
+  margin-left: 10px;
+}

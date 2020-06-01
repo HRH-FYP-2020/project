@@ -1,0 +1,18 @@
+.thirdStep{
+    background-color: floralwhite;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    display: inline-block;
+    height: 19%;
+    width: 90%;
+}
+
+.personal_Details{
+    float: left;
+    margin-top: 10px;
+    width: 50%;
+    background-color: floralwhite;  
+}
+.h6signUpHeading{
+    margin-left: 10px;
+  }

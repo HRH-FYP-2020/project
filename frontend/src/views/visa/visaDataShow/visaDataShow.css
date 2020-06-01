@@ -1,0 +1,90 @@
+.mainDiv{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    box-shadow: 1px 15px 15px gray;
+    border: 1px solid #dddddd;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.firstDiv{
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    overflow-y: auto;
+    border: 2px solid green;
+}
+.textField{
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+
+}
+.textField_even{
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.emailField{
+    float: left;
+    width: 100%;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: #dddddd;
+    color: black;
+}
+.visa_details{
+    color: green;
+    float: left;
+}
+.secondDiv{
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    overflow-y: auto;
+    border: 2px solid #dddddd;
+}
+.THD{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border:1px solid #dddddd;
+}
+.THD3{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border:1px solid #dddddd;
+    width: 20px;
+    /* padding-bottom: 0%; */
+    /* padding-top: 0%; */
+    
+    /* padding: 0px; */
+}
+.PrimeryBtn{
+    
+    float: left;
+    width: 115%;
+    height: 40px;
+    margin-left: -8px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+
+}
+.PrimeryBtn2{
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin-left: 0px;
+    
+}

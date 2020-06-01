@@ -1,0 +1,58 @@
+.MainDiv{
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    box-shadow: 1px 15px 15px gray;
+    border: 1px solid #dddddd;
+
+}
+/* .MainDiv::-webkit-scrollbar {
+    display: none;
+} */
+.PasswordDiv{
+    position: relative;
+    width: 90%;
+    border: 2px solid green;
+    margin: 50px 50px 50px 50px ;
+}
+
+.CurrentPassword, .NewPassword,.ConfirmPassword,.newEmail{
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    border: none;
+    border-bottom: 2px solid rgb(78, 231, 78);
+    padding: 5px 10px;
+    background-color:white ;
+    color:black;
+   
+
+}
+.SubmitBtn{
+
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(78, 231, 78);
+    color:white;
+    margin-bottom: 20px;
+}
+.h5Heading{
+    margin-bottom: -3px;
+    margin-top: 20px;
+    margin-left: 25%;
+    color: black;
+}
+.ChangePassword{
+
+    margin-top: 20px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+::placeholder {
+    color: red;
+  }
